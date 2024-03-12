@@ -44,7 +44,7 @@ const Header = () => {
          activeClass='active'
          smooth={true} 
          spy={true}>
-        <button className='btn btn-sm'>Work wih me</button> 
+        <button className='btn btn-sm'>See My Work</button> 
         </Link>
       </motion.div>
     </div>

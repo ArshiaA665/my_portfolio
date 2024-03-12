@@ -73,14 +73,11 @@ function Banner() {
              viewport={{ once: false, amount:1.0 }}  
              className='flex text-[20px] gap-x-6 max-w-max
               mx-auto lg:mx-0 lg:my-10 '>
-              <a href="#">
+              <a href="https://github.com/ArshiaA665/my_portfolio.git" target="_blank" rel="noopener noreferrer">
                 <FaGithub />
               </a>
               <a href="https://www.linkedin.com/in/arshia-aryanfar-8427141a5/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin />
-              </a>
-              <a href="#">
-                <FaDiscord />
               </a>
              </motion.div>
         </div>

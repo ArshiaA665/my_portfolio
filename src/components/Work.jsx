@@ -30,7 +30,7 @@ const Work = () => {
               I made a few personal projects. Feel free to take a look
               at them!
             </p>
-            <button className='btn btn-sm'>View all projects</button>
+            <a href="#"><button className='btn btn-sm'>My Portfolio</button></a>
           </div>
           {/* image1 */}
           <a href="https://travela.online/" target="_blank" rel="noopener noreferrer"> 
