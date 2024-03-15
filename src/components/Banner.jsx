@@ -56,15 +56,6 @@ function Banner() {
             viewport={{ once: false, amount:0.7 }}  
             className='mb-8 mx-w-lg mx-auto lg:mx-0'> My name is Arshia. I am a BCIT computer graduate. My main passion is frontend development.
              </motion.p>
-             <motion.div 
-             variants={fadeIn('right', 1.3)} 
-             initial="hidden"
-             whileInView={'show'} 
-             viewport={{ once: false, amount:0.7 }} 
-             className='flex max-w-max gap-x-6 items-center mb-12
-              mx-auto lg:mx-0'>
-              <a href="#" className='text-gradient btn-link'>My Portfolio</a>
-             </motion.div>
              {/* social */}
              <motion.div
              variants={fadeIn('up', 1.5)} 

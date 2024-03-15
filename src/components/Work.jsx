@@ -19,7 +19,7 @@ const Work = () => {
       id='work'>
     <div className='container mx-auto'>
       <div className='flex flex-col lg:flex-row gap-x-10'>
-        <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0 m-auto'>
+        <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0 my-auto'>
           {/* text */}
           <div>
             <h2 className='h2 leading-tight text-accent'>
@@ -30,7 +30,6 @@ const Work = () => {
               I made a few personal projects. Feel free to take a look
               at them!
             </p>
-            <a href="#"><button className='btn btn-sm'>My Portfolio</button></a>
           </div>
           {/* image1 */}
           <a href="https://travela.online/" target="_blank" rel="noopener noreferrer"> 

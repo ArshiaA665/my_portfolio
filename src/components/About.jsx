@@ -77,11 +77,6 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className='flex gap-x-8 items-center'>
-            <a href="#" className='text-gradient btn-link'>
-              My Portfolio
-            </a>
-          </div>
         </motion.div>
       </div>
     </div>

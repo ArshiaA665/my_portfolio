@@ -1,5 +1,3 @@
-//link
-import { Link } from 'react-scroll';
 //react
 import React from 'react';
 //icon
@@ -8,6 +6,8 @@ import { BsArrowUpRight } from 'react-icons/bs'
 import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
+
+import service from "../assets/services.png"
 
 // services data
 const services = [
@@ -49,20 +49,15 @@ const Services = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className='flex-1 lg:bg-services
-            lg:bg-bottom bg-no-repeat mb-12 lg:mb-0'>
-            <h2 className='h2 text-accent mb-6'> What I Do</h2>
+          className='flex-1 mb-12 lg:mb-0'>
+            <h2 className='h2 text-accent mb-6 '> What I Do</h2>
             <h3 className='h3 max-w-[460px] mb-16'>
               Im a Front-end Developer with 3 Years of 
               Experience.
             </h3>
-            <Link
-             to='work'
-             activeClass='active'
-             smooth={true} 
-             spy={true}>
-            <button className='btn btn-sm'>See My Work</button>
-            </Link>
+            <div className='hidden lg:block'>
+            <img src={service} className='bg-contain h-[450px] bg-no-repeat rounded-lg '/>
+            </div>
           </motion.div>
           {/* services */}
           <motion.div
